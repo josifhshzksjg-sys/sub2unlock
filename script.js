@@ -31,3 +31,20 @@ return;
 alert("Information Saved Successfully!");
 
 });
+generateBtn.addEventListener("click", () => {
+
+    alert(
+`Step 1: Open YouTube Channel
+
+Step 2: Open YouTube Video
+
+Step 3: Join Telegram Channel
+
+Step 4: Open Shortener Link
+
+Step 5: Open Final Download Link`
+    );
+
+});
+
+});
