@@ -48,3 +48,17 @@ Step 5: Open Final Download Link`
 });
 
 });
+// Subscribe Popup
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const popup = document.getElementById("subscribePopup");
+  const continueBtn = document.getElementById("continueBtn");
+
+  if (continueBtn) {
+    continueBtn.addEventListener("click", function () {
+      popup.style.display = "none";
+    });
+  }
+
+});
