@@ -125,3 +125,54 @@ outline:none;
 background:none;
 padding:0;
 }
+.form-box button{
+width:100%;
+margin-top:25px;
+padding:16px;
+border:none;
+border-radius:12px;
+background:#ffd700;
+color:#000;
+font-size:20px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.form-box button:hover{
+background:#ffb300;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+margin-top:30px;
+color:#aaa;
+font-size:15px;
+border-top:1px solid #333;
+}
+
+@media (max-width:768px){
+
+.logo img{
+width:60px;
+height:60px;
+}
+
+.logo-text h1{
+font-size:24px;
+}
+
+.logo-text p{
+font-size:14px;
+}
+
+.card h2{
+font-size:28px;
+}
+
+.sidebar{
+width:260px;
+}
+
+}
