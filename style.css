@@ -54,3 +54,43 @@ width:95%;
 max-width:600px;
 margin:25px auto;
 }
+.card{
+background:#111;
+padding:25px;
+border-radius:20px;
+box-shadow:0 0 20px rgba(255,215,0,.25);
+}
+
+.card h3{
+color:gold;
+margin-bottom:20px;
+font-size:28px;
+}
+
+.card input{
+width:100%;
+padding:15px;
+margin:10px 0;
+background:#1b1b1b;
+border:1px solid #333;
+border-radius:10px;
+color:#fff;
+font-size:16px;
+}
+
+.card input::placeholder{
+color:#999;
+}
+
+.card button{
+width:100%;
+padding:16px;
+margin-top:15px;
+border:none;
+border-radius:12px;
+background:linear-gradient(90deg,#ffb300,#ff2d2d);
+color:#fff;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
