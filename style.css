@@ -94,3 +94,41 @@ font-size:18px;
 font-weight:bold;
 cursor:pointer;
 }
+.file-box{
+margin-top:15px;
+color:#ddd;
+font-size:15px;
+}
+
+input[type="file"]{
+width:100%;
+padding:10px;
+margin:10px 0;
+background:#1b1b1b;
+color:#fff;
+border:1px solid #333;
+border-radius:10px;
+}
+
+@media(max-width:600px){
+.logo img{
+width:65px;
+height:65px;
+}
+
+.logo h1{
+font-size:24px;
+}
+
+.logo p{
+font-size:14px;
+}
+
+.card{
+padding:20px;
+}
+
+.card h3{
+font-size:24px;
+}
+}
